@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "codimd-memory": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/codimd_mcp/src/mcp.js"],
+      "env": {}
+    }
+  }
+}

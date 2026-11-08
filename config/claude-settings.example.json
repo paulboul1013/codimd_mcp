@@ -1,0 +1,23 @@
+{
+  "autoMemoryEnabled": false,
+  "permissions": {
+    "allow": [
+      "mcp__codimd-memory__memory_index",
+      "mcp__codimd-memory__memory_search",
+      "mcp__codimd-memory__memory_read"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /ABSOLUTE/PATH/TO/codimd_mcp/src/session-start.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
