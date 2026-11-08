@@ -1,0 +1,19 @@
+{
+  "name": "codimd-memory-mcp",
+  "version": "1.0.0",
+  "description": "MCP server, SessionStart hook and skill that store Claude Code memory notes in CodiMD",
+  "private": true,
+  "license": "AGPL-3.0",
+  "bin": {
+    "codimd-memory-mcp": "src/mcp.js"
+  },
+  "scripts": {
+    "test": "mocha --exit --timeout 15000 test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "mocha": "~5.2.0"
+  }
+}
